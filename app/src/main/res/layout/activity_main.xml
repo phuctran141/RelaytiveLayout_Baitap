@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/tvBlue"
+        android:textSize="30sp"
+        android:background="#1A237E"
+        android:text="Blue"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvGreen"
+        android:textSize="30sp"
+        android:background="#37FF00"
+        android:text="Green"
+        android:layout_above="@+id/tvBlue"
+        android:layout_alignStart="@+id/tvBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvRed"
+        android:textSize="30sp"
+        android:background="#FD0404"
+        android:text="Red"
+        android:layout_above="@+id/tvGreen"
+        android:layout_alignStart="@+id/tvBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvOrange"
+        android:textSize="30sp"
+        android:background="#FF6F00"
+        android:text="Orange"
+        android:layout_below="@+id/tvBlue"
+        android:layout_alignStart="@+id/tvBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvGray"
+        android:textSize="30sp"
+        android:background="#46E2E1E1"
+        android:text="Gray"
+        android:layout_below="@+id/tvOrange"
+        android:layout_alignStart="@+id/tvBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvPink"
+        android:textSize="30sp"
+        android:background="#D8134B"
+        android:text="Pink"
+        android:layout_below="@+id/tvGray"
+        android:layout_alignStart="@+id/tvBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>
